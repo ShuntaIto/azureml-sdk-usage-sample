@@ -11,3 +11,17 @@ Azure Machine Learning SDK のサンプルです。
 詳細は以下
 
 https://qiita.com/ShuntaIto/items/9daae0f87dbeca48ccdc
+
+# dependency
+
+- Python==3.8.12
+
+- azureml-core
+- azureml-mlflow
+- azureml-opendatasets
+- mlflow
+- scikit-learn
+- lightgbm
+- numpy
+- pandas
+- cloudpickle
