@@ -2,19 +2,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error
 import numpy as np
-import pandas as pd
 import lightgbm as lgb
 
-from azureml.core import Workspace, Datastore, Dataset, Run
-from azureml.opendatasets import NycTlcGreen
+from azureml.core import Run
 import mlflow
 
 import argparse
-import time
 import cloudpickle
-import copy
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
 
 # 引数取得
 
