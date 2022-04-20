@@ -92,3 +92,6 @@ def main() -> None:
     params = get_parameters()
     (train_dataset, eval_dataset) = load_dataset()
     train_lgb_model(params=params, train_dataset=train_dataset, eval_dataset=eval_dataset)
+
+if __name__ == '__main__':
+    main()
